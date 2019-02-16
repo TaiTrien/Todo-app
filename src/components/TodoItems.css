@@ -1,0 +1,29 @@
+.TodoItems {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color : black;
+    padding: 5px 10px;
+    margin-left: -0.25px;
+    border-bottom: 2px solid #41c5d3;
+    border-top: 2px solid #41c5d3;
+    background-color: #e2f6d5;
+}
+.TodoItems > p {
+    margin:0; 
+}
+
+.TodoItems:last-child {
+    border-bottom: none;
+    border-top:none;
+}
+
+.TodoItems-Done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.TodoItems img {
+    position: absolute;
+    left:990px;
+}
